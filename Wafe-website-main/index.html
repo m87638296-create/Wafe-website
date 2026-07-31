@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAFE | Where Fashion Meets Grace</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>WAFE</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <a href="#products" class="hero-btn">Shop Now</a>
+    </div>
+</section>
+
+<section class="search-section">
+    <input type="text" id="searchInput" placeholder="Search dresses..." onkeyup="searchProducts()">
+</section>
+<section  id="shop" class="products">
+
+<h2>Featured Products</h2>
+
+<div class="product-container">
+
+<div class="product">
+<img src="images/products/WhatsApp Image 2026-07-27 at 10.14.23 AM (1).jpeg" alt="Dress 1">
+<h3>ANAYA Collection</h3>
+<p>Rs. 2700</p>
+<button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+<button class="order-btn" onclick="addToCart('ANAYA VOL',2700)">
+    Order Now
+</button>
+</div>
+
+<div class="product">
+<img src="images/products/WhatsApp Image 2026-07-27 at 10.14.39 AM.jpeg" alt="Dress 2">
+<h3>ANAYA Collection</h3>
+<p>Rs. 2700</p>
+<button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+<button class="order-btn" onclick="addToCart('ANAYA VOL',2700)">
+    Order Now
+</button>
+</div>
+
+<div class="product">
+<img src="images/products/WhatsApp Image 2026-07-27 at 10.14.25 AM.jpeg" alt="Dress 3">
+<h3>ANAYA</h3>
+<p>Rs. 2700</p>
+<button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+<button class="order-btn" onclick="addToCart('ANAYA VOL',2700)">
+    Order Now
+</button>
+</div>
+
+<div class="product">
+<img src="images/products/product4.jpeg" alt="Dress 4">
+<h3>ZEEN Slub Lawn</h3>
+<p>
+    *ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+• ⁠Rs. 3200</p>
+<button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+<button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+</div>
+
+<div class="product">
+<img src="images/products/product5.jpeg" alt="Dress 5">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product6.jpeg" alt="Dress 6">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product7.jpeg" alt="Dress 7">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product8.jpeg" alt="Dress 8">
+<h3>Zeen slub lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product9.jpeg" alt="Dress 9">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product10.jpeg" alt="Dress 10">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product11.jpeg" alt="Dress 11">
+<h3>Zeen slub lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product12.jpeg" alt="Dress 12">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+    <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product15.jpeg" alt="Dress 13">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+<button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+    </div>
+
+<div class="product">
+<img src="images/products/product14.jpeg" alt="Dress 14">
+<h3>ZEEN SLUB Lawn</h3>
+<p>*ZEEN*
+
+• FABRIC *SLUB LAWN*
+• *⁠PRINT SLUB LAWN* SHIRT
+• *⁠PRINT LAWN VOIL* DUPATA
+• *⁠SLUB LAWN PRINT* TROUSER
+• ⁠GUARANTEED STUFF 💯
+• ⁠EASILY STICHABLE CUTTING
+    Rs. 3200</p>
+    <button class="wishlist-btn" onclick="addToWishlist('ZEEN SLUB Lawn')">
+    ❤️
+</button>
+     <button class="order-btn" onclick="addToCart('ZEEN SLUB Lawn',3200)">
+    Order Now
+</button>
+</div>
+
+</section>
+<section class="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="review-card">
+        <h3>Ayesha</h3>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Excellent quality! The fabric is soft and exactly as shown.</p>
+    </div>
+
+    <div class="review-card">
+        <h3>Fatima</h3>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>Fast delivery and beautiful stitching. Highly recommended!</p>
+    </div>
+
+    <div class="review-card">
+        <h3>Zainab</h3>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>I loved the color and quality. Will order again!</p>
+    </div>
+</section>
+
+<section id="new-arrivals">
+    <h2>New Arrivals</h2>
+    <p>Our latest fashion collection will appear here.</p>
+</section>
+
+<section id="about">
+    <h2>About WAFE</h2>
+    <p>WAFE offers branded and premium local dresses at affordable prices.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp: +923121363455</p>
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>
