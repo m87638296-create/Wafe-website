@@ -247,3 +247,32 @@ footer{
 footer p{
     margin-top:20px;
 }
+.contact{
+    text-align:center;
+    padding:60px 20px;
+    background:#f8f8f8;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.contact-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.contact-btn:hover{
+    opacity:0.9;
+}
