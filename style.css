@@ -219,3 +219,31 @@ nav a:hover{
 .review-card p{
     margin:8px 0;
 }
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+.social-icons{
+    margin:20px 0;
+}
+
+.social-icons a{
+    display:inline-block;
+    margin:0 12px;
+    font-size:30px;
+    color:white;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#ff4f87;
+    transform:scale(1.2);
+}
+
+footer p{
+    margin-top:20px;
+}
