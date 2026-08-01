@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://m87638296-create.github.io/Wafe-website/sitemap.xml
