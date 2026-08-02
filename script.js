@@ -93,3 +93,6 @@ function addToWishlist(product){
     }
 
 }
+function changeImage(imageId, newImage) {
+    document.getElementById(imageId).src = newImage;
+}
