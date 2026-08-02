@@ -276,3 +276,27 @@ footer p{
 .contact-btn:hover{
     opacity:0.9;
 }
+.color-dots{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:12px 0;
+}
+
+.dot{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    cursor:pointer;
+    border:2px solid #ddd;
+}
+
+.black{background:#000;}
+.pink{background:#ff69b4;}
+.blue{background:#1e90ff;}
+.green{background:#2e8b57;}
+
+.dot:hover{
+    transform:scale(1.2);
+}
+
