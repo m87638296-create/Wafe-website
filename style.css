@@ -299,4 +299,25 @@ footer p{
 .dot:hover{
     transform:scale(1.2);
 }
+.product-details{
+    background:#fff8f9;
+    border:1px solid #f4b6c2;
+    border-radius:8px;
+    padding:15px;
+    margin-top:10px;
+    text-align:left;
+}
 
+.details-btn{
+    background:#ff4f87;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.details-btn:hover{
+    background:#e63b73;
+}
