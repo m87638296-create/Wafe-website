@@ -96,3 +96,12 @@ function addToWishlist(product){
 function changeImage(imageId, newImage) {
     document.getElementById(imageId).src = newImage;
 }
+function toggleDetails(id) {
+    let details = document.getElementById(id);
+
+    if (details.style.display === "none") {
+        details.style.display = "block";
+    } else {
+        details.style.display = "none";
+    }
+}
